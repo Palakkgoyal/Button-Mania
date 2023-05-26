@@ -19,3 +19,13 @@
     -moz-background-clip: text;
     -webkit-background-clip: text;
 }
+
+
+@media screen and (max-width: 624px) {
+    .logo{
+        width: 50px;
+    }
+    .logoText{
+        font-size: 50px;
+    }
+}
