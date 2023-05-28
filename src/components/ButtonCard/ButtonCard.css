@@ -40,7 +40,7 @@
     background: radial-gradient(circle, rgb(133, 180, 255) 0%, rgb(104, 255, 104) 100%);    transition: all 0.3s ease-in-out;
 }
 
-.view-code-btn a {
+.view-code-btn a, .download-btn a {
     color: white;
     text-decoration: none;
 }

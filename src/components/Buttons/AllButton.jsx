@@ -1,17 +1,18 @@
 import React from 'react'
 import ButtonCard from '../ButtonCard/ButtonCard'
 import './AllButton.css'
-import btn from '../../assets'
+import { trialBtn } from '../../assets'
 
 const AllButton = () => {
   return (
     <main className='btn-container'>
       <ButtonCard 
-        img={btn} 
-        alt="neumorphic blue button"
-        codepen="https://codepen.io/palakgoyal432/pen/xxZQqQq"
-        author="Palak Goyal"
-        github="https://github.com/palakkgoyal"
+        btnImg={trialBtn} 
+        imgAlt="neumorphic blue button"
+        codepenLink="https://codepen.io/Palak-Goyal/pen/VwENdgy"
+        zipFileName='trial-button'
+        authorName="Palak Goyal"
+        githubLink="https://github.com/palakkgoyal"
       />
 
       <ButtonCard />

@@ -1,24 +1,38 @@
-import React, { Children } from 'react'
 import './ButtonCard.css'
 
-const ButtonCard = ({img, alt, codepen, author, github}) => {
+const ButtonCard = ({ btnImg, imgAlt, codepenLink, zipFileName, authorName, githubLink }) => {
   return (
     <div className='card'>
-        <img src={img} alt={alt} className='btn-img' />
-        <div className='button-info'>
-          <button className='btn view-code-btn'>
-             <a href={codepen}>
-              View Code
-             </a>
-          </button>
-          <button className='btn download-btn'>Download</button>
-          <p className='author'>
-            <span>Author: </span> 
-            <address>
-              <a href={github}>{author}</a>
-            </address>
-          </p>
-        </div>
+      <img src={btnImg} alt={imgAlt} className='btn-img' />
+      <div className='button-info'>
+        <button className='btn view-code-btn'>
+          <a
+            href={codepenLink}
+            target='_blank'
+          >
+            View Code
+          </a>
+        </button>
+        <button className='btn download-btn'>
+          <a
+            href={`/zipfiles/${zipFileName}.zip`}
+            download={`${zipFileName}.zip`}
+          >
+            Download
+          </a>
+        </button>
+        <p className='author'>
+          <span>Author: </span>
+          <address>
+            <a
+              href={githubLink}
+              target='_blank'
+            >
+              {authorName}
+            </a>
+          </address>
+        </p>
+      </div>
     </div>
   )
 }

@@ -1,3 +1,5 @@
-import btn from './btn.jpeg'
+import trialBtn from './btn.jpeg'
 
-export default btn;
+export {
+    trialBtn,
+} 
