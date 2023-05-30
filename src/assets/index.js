@@ -1,5 +1,5 @@
-import trialBtn from './btn.jpeg'
+import neumorphicGreyBtn from './neumorphicGreyBtn.png';
 
 export {
-    trialBtn,
+    neumorphicGreyBtn,
 } 

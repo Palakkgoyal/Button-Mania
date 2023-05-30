@@ -3,7 +3,7 @@ import './ButtonCard.css'
 const ButtonCard = ({ btnImg, imgAlt, codepenLink, zipFileName, authorName, githubLink }) => {
   return (
     <div className='card'>
-      <img src={btnImg} alt={imgAlt} className='btn-img' />
+      <img src={ btnImg } alt={ imgAlt } className='btn-img' />
       <div className='button-info'>
         <button className='btn view-code-btn'>
           <a
