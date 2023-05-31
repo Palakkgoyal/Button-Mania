@@ -14,12 +14,6 @@ const AllButton = () => {
         authorName="Palak Goyal"
         githubLink="https://github.com/palakkgoyal"
       />
-
-      <ButtonCard />
-
-      <ButtonCard />
-
-      <ButtonCard />
     </main>
   )
 }

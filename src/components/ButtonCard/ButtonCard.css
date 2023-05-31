@@ -93,6 +93,7 @@ address a:hover{
 address:hover{
     background: linear-gradient(gray, rgb(45, 43, 43), rgb(56, 53, 53), gray);
     -webkit-background-clip: text;
+    background-clip: text;
 }
 
 @media screen and (min-width: 1400px){
