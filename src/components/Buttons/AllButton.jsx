@@ -1,7 +1,7 @@
 import React from 'react'
 import ButtonCard from '../ButtonCard/ButtonCard'
 import './AllButton.css'
-import { neumorphicGreyBtn } from '../../assets'
+import { abhiButton, neumorphicGreyBtn } from '../../assets'
 
 const AllButton = () => {
   return (
@@ -13,6 +13,14 @@ const AllButton = () => {
         zipFileName='trial-button'
         authorName="Palak Goyal"
         githubLink="https://github.com/palakkgoyal"
+      />
+      <ButtonCard 
+        btnImg={ abhiButton } 
+        imgAlt="simple grey button"
+        codepenLink="https://codepen.io/AbhiSharma1511/pen/bGQddPp"
+        zipFileName='trial-button'
+        authorName="Abhinav Sharma"
+        githubLink="https://github.com/AbhiSharma1511"
       />
     </main>
   )
