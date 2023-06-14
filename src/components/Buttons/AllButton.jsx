@@ -1,7 +1,7 @@
-import React from "react";
-import ButtonCard from "../ButtonCard/ButtonCard";
-import "./AllButton.css";
-import { neumorphicGreyBtn, pushButtonWithAnimation } from "../../assets";
+import React from 'react'
+import ButtonCard from '../ButtonCard/ButtonCard'
+import './AllButton.css'
+import { neumorphicGreyBtn, pushButtonWithAnimation } from '../../assets'
 
 const AllButton = () => {
   return (
@@ -23,7 +23,7 @@ const AllButton = () => {
         githubLink="https://github.com/keshavkumarhembram"
       />
     </main>
-  );
-};
+  )
+}
 
-export default AllButton;
+export default AllButton
